@@ -1,0 +1,29 @@
+{
+  "name": "create-file-webpack",
+  "version": "1.0",
+  "description": "Webpack plugin for creating the file with the hash in it",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamieconnor/create-hash-file-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "hash",
+    "file"
+  ],
+  "author": {
+    "name": "Jamie Connor",
+    "email": "jamie@jamieconnor.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamieconnor/create-hash-file-webpack/issues"
+  },
+  "homepage": "https://github.com/jamieconnor/create-hash-file-webpack#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "write": "^1.0.3"
+  }
+}

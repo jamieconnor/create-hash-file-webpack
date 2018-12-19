@@ -32,7 +32,7 @@ const CreateHashFileWebpack = require('create-hash-file-webpack')
         // path to folder in which the file will be created
         path: './dist',
         // file name
-        fileName: 'index.js',
+        fileName: 'scripts.html',
         // content of the file
         content: '<script src="/js/bundle.[hash].js"></script>'
     }])

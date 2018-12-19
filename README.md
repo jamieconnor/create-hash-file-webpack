@@ -1,4 +1,4 @@
-# Create file plugin for WebPack
+# Create hash file plugin for WebPack
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A webpack plugin to create a file with the hash.

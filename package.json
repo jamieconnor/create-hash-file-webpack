@@ -1,6 +1,6 @@
 {
   "name": "create-hash-file-webpack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webpack plugin for creating the file with the hash in it",
   "main": "index.js",
   "repository": {

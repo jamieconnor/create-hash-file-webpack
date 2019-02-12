@@ -13,7 +13,7 @@ var CreateHashFilePlugin = (function () {
 
   function _createFile(compStats, filePath, fileName, content) {
     const fullPath = path.join(filePath, fileName);
-    write.sync(fullPath, content.replace('[hash]', compStats.hash));
+    write.sync(fullPath, content.replace(/\[hash\]/g, compStats.hash));
   }
 
   CreateHashFilePlugin.prototype.apply = function (compiler) {
